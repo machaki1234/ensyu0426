@@ -24,12 +24,13 @@ namespace ensyu0426
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button3.BackColor = Red;
+            button2.BackColor = Color.LightPink;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            button3.Width = 50;
+            button3.Height = 50;
 
         }
     }
